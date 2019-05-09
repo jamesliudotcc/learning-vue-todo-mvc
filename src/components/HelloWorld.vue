@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
     <input v-model="draftToDo">
-    {{draftToDo}}
     <br>
     <button v-on:click="addToDo">Add to do</button>
     <button v-on:click="clearDone">Clear Done</button>
